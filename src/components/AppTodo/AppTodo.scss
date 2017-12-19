@@ -1,0 +1,26 @@
+.sheela-app-todo {
+  position: relative;
+  margin: 0 auto;
+  background-color: #eee9e9;
+  width: 960px;
+  border-radius: 4px;
+  .add-to-list {
+    text-align: center;
+    input {
+      width: 80%;
+      height: 40px;
+    }
+  }
+  .todo-container {
+    text-align: center;
+  }
+  .sheela-list {
+    display: block;
+    padding: 20px;
+    background-color: #b0e0e6;
+    border-radius: 20px;
+    margin: 5px;
+    color: black;
+    text-transform: capitalize;
+  }
+}
